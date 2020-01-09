@@ -7,7 +7,7 @@ function validation(){
     const email = $myForm.myText.value;
     $error.style.color = 'rgb(209, 43, 43)';
     if(email === ''){
-        $error.textContent = 'This field can not be empty';
+        $error.textContent = 'Whoops! It looks like you forgot to add your email';
         $input.style.border = 'solid 1px red';
     }
     else if(!/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2}/i.test(email)){
