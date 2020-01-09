@@ -5,7 +5,7 @@ function validation(){
     const $myForm = document.querySelector('.form');
     const $input = document.querySelector('.input');
     const email = $myForm.myText.value;
-
+    $error.style.color = 'rgb(209, 43, 43)';
     if(email === ''){
         $error.textContent = 'This field can not be empty';
         $input.style.border = 'solid 1px red';
@@ -17,8 +17,11 @@ function validation(){
     else{
         $error.textContent ='';
         $input.style.border = 'solid 1px rgba(128, 128, 128, 0.548)';
-        alert('The email was sent');
-        $input.value = '';
+        $error.style.color = 'rgb(46, 204, 113)';
+        $error.textContent ='The email was sent';$input.value = '';
+        setTimeout(function(){},1000);
+        $error.textContent ='';
+        
     }
     return false;
 }
