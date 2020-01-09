@@ -51,13 +51,23 @@
   .form {
 
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 40%;
     justify-content: space-between;
 
+  }
+  .error{
+    
+    height: 30px;
+    margin-bottom:20px;
+    width:38%;
+    text-align: left;
+    font-style: italic;
+    color: rgb(209, 43, 43);
+    font-size: 15px;
   }
 
   .launching {
@@ -131,6 +141,9 @@
   }
   .form{
     flex-direction: column;
+    width:80%;
+  }
+  .error{
     width:80%;
   }
   .input{
