@@ -2,6 +2,8 @@
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
+https://gabrieljgb.github.io/coming-soon-page/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
