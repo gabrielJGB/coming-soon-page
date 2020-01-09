@@ -19,8 +19,10 @@ function validation(){
         $input.style.border = 'solid 1px rgba(128, 128, 128, 0.548)';
         $error.style.color = 'rgb(46, 204, 113)';
         $error.textContent ='The email was sent';$input.value = '';
-        setTimeout(function(){},1000);
-        $error.textContent ='';
+        setTimeout(function(){
+            $error.textContent ='';
+        },4000);
+        
         
     }
     return false;
